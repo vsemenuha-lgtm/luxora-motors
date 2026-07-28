@@ -7,14 +7,14 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-background-video-wrapper">
-        <iframe
+        <video
           className="hero-background-video"
-          src="https://www.youtube.com/embed/u_wB9JiIGy4?autoplay=1&mute=1&loop=1&playlist=u_wB9JiIGy4&controls=0&showinfo=0&rel=0&modestbranding=1&disablekb=1&playsinline=1"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-          title="Audi R8 Cinematic"
-        ></iframe>
+          src={`${import.meta.env.BASE_URL}hero.mp4`}
+          autoPlay
+          muted
+          loop
+          playsInline
+        ></video>
       </div>
       <div className="hero-gradient"></div>
       
