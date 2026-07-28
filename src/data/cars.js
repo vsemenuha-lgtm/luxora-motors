@@ -8,14 +8,10 @@ export const cars = [
     "engine": "5.2L V12",
     "hp": 608,
     "seats": 2,
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
+    "image": "cars/car_1.jpg",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_1.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Aston Martin DB11. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Aston Martin.",
     "specs": {
@@ -35,14 +31,10 @@ export const cars = [
     "engine": "6.75L V12",
     "hp": 563,
     "seats": 5,
-    "image": "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
+    "image": "cars/car_2.jpg",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_2.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Rolls-Royce Ghost. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Rolls-Royce.",
     "specs": {
@@ -62,14 +54,10 @@ export const cars = [
     "engine": "6.5L V12",
     "hp": 789,
     "seats": 2,
-    "image": "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
+    "image": "cars/car_3.jpg",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_3.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Ferrari 812 Superfast. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Ferrari.",
     "specs": {
@@ -89,14 +77,10 @@ export const cars = [
     "engine": "6.5L V12",
     "hp": 759,
     "seats": 2,
-    "image": "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
+    "image": "cars/car_4.jpg",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_4.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Lamborghini Aventador SVJ. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Lamborghini.",
     "specs": {
@@ -116,13 +100,9 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 542,
     "seats": 4,
-    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=800",
+    "image": "cars/car_5.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800"
+      "cars/car_5.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Bentley Continental GT. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Bentley.",
     "specs": {
@@ -142,13 +122,9 @@ export const cars = [
     "engine": "3.8L Flat-6",
     "hp": 640,
     "seats": 4,
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
+    "image": "cars/car_6.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_6.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Porsche 911 Turbo S. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Porsche.",
     "specs": {
@@ -168,13 +144,9 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 710,
     "seats": 2,
-    "image": "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
+    "image": "cars/car_7.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_7.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the McLaren 720S. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of McLaren.",
     "specs": {
@@ -194,13 +166,9 @@ export const cars = [
     "engine": "6.75L V12",
     "hp": 563,
     "seats": 5,
-    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=800",
+    "image": "cars/car_8.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800"
+      "cars/car_8.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Rolls-Royce Cullinan. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Rolls-Royce.",
     "specs": {
@@ -220,13 +188,9 @@ export const cars = [
     "engine": "3.9L V8",
     "hp": 710,
     "seats": 2,
-    "image": "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
+    "image": "cars/car_9.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_9.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Ferrari F8 Tributo. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Ferrari.",
     "specs": {
@@ -246,13 +210,9 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 577,
     "seats": 5,
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
+    "image": "cars/car_10.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_10.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Mercedes-Benz G63 AMG. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Mercedes-Benz.",
     "specs": {
@@ -272,13 +232,9 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 641,
     "seats": 5,
-    "image": "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
+    "image": "cars/car_11.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_11.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Lamborghini Urus. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Lamborghini.",
     "specs": {
@@ -298,13 +254,9 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 503,
     "seats": 2,
-    "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800",
+    "image": "cars/car_12.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800"
+      "cars/car_12.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Aston Martin Vantage. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Aston Martin.",
     "specs": {
@@ -324,13 +276,9 @@ export const cars = [
     "engine": "Electric",
     "hp": 750,
     "seats": 4,
-    "image": "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
+    "image": "cars/car_13.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_13.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Porsche Taycan Turbo S. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Porsche.",
     "specs": {
@@ -350,13 +298,9 @@ export const cars = [
     "engine": "6.75L V12",
     "hp": 563,
     "seats": 5,
-    "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800",
+    "image": "cars/car_14.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800"
+      "cars/car_14.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Rolls-Royce Phantom. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Rolls-Royce.",
     "specs": {
@@ -376,13 +320,9 @@ export const cars = [
     "engine": "3.0L V6 Hybrid",
     "hp": 671,
     "seats": 2,
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
+    "image": "cars/car_15.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_15.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the McLaren Artura. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of McLaren.",
     "specs": {
@@ -402,13 +342,9 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 542,
     "seats": 5,
-    "image": "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
+    "image": "cars/car_16.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_16.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Bentley Bentayga. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Bentley.",
     "specs": {
@@ -428,13 +364,9 @@ export const cars = [
     "engine": "4.0L V8 Hybrid",
     "hp": 986,
     "seats": 2,
-    "image": "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
+    "image": "cars/car_17.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_17.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Ferrari SF90 Stradale. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Ferrari.",
     "specs": {
@@ -454,13 +386,9 @@ export const cars = [
     "engine": "5.2L V10",
     "hp": 631,
     "seats": 2,
-    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=800",
+    "image": "cars/car_18.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800"
+      "cars/car_18.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Lamborghini Huracan EVO. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Lamborghini.",
     "specs": {
@@ -532,13 +460,9 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 620,
     "seats": 4,
-    "image": "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
+    "image": "cars/car_21.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_21.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Porsche Panamera Turbo S. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Porsche.",
     "specs": {

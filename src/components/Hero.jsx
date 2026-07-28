@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="hero-background-video-wrapper">
         <video
           className="hero-background-video"
-          src="https://cdn.pixabay.com/video/2021/08/21/85806-591740924_tiny.mp4"
+          src={`${import.meta.env.BASE_URL}hero.mp4`}
           autoPlay
           muted
           loop
