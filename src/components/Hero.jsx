@@ -14,6 +14,7 @@ const Hero = () => {
           muted
           loop
           playsInline
+          preload="auto"
         ></video>
       </div>
       <div className="hero-gradient"></div>
