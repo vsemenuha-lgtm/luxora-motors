@@ -1,0 +1,54 @@
+.inventory-page {
+  padding-top: 100px;
+  min-height: 100vh;
+}
+
+.inventory-header {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.inventory-header .title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.inventory-header .desc {
+  color: var(--text-secondary);
+}
+
+.inventory-content {
+  padding: 4rem 2rem;
+}
+
+.inventory-filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  border-color: var(--accent-gold);
+  color: var(--text-primary);
+}
+
+.filter-btn.active {
+  background: var(--accent-gold);
+  color: #000;
+  border-color: var(--accent-gold);
+}
