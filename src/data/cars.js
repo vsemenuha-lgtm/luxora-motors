@@ -408,13 +408,9 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 496,
     "seats": 5,
-    "image": "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
+    "image": "cars/car_19.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800"
+      "cars/car_19.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Mercedes-Maybach S 580. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Mercedes-Maybach.",
     "specs": {
@@ -434,13 +430,9 @@ export const cars = [
     "engine": "5.2L V12",
     "hp": 715,
     "seats": 4,
-    "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800",
+    "image": "cars/car_20.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800",
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=800",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=800",
-      "https://images.unsplash.com/photo-1503376712341-ea47535b46b1?q=80&w=800"
+      "cars/car_20.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Aston Martin DBS Superleggera. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Aston Martin.",
     "specs": {
