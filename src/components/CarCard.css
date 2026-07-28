@@ -121,3 +121,38 @@
 .view-details-btn:hover {
   color: var(--accent-gold);
 }
+
+@media (max-width: 768px) {
+  .car-image {
+    height: 120px;
+  }
+  .car-info {
+    padding: 0.75rem;
+  }
+  .car-header {
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+  }
+  .car-title {
+    font-size: 0.85rem;
+  }
+  .car-price {
+    font-size: 0.85rem;
+  }
+  .car-specs {
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+  .spec {
+    font-size: 0.65rem;
+  }
+  .spec-icon {
+    width: 12px;
+    height: 12px;
+  }
+  .view-details-btn {
+    font-size: 0.65rem;
+  }
+}
