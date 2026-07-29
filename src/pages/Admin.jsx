@@ -3,7 +3,8 @@ import { useCarContext } from '../context/CarContext';
 import './Admin.css';
 
 const Admin = () => {
-  const { cars, addCar, removeCar } = useCarContext();
+  const { cars, addCar, removeCar, updateCar } = useCarContext();
+  const [editingCarId, setEditingCarId] = useState(null);
   const [formData, setFormData] = useState({
     brand: '',
     model: '',
@@ -23,6 +24,37 @@ const Admin = () => {
       ...prev,
       [name]: type === 'checkbox' ? checked : value
     }));
+  };
+
+  const handleEdit = (car) => {
+    setEditingCarId(car.id);
+    setFormData({
+      brand: car.brand || '',
+      model: car.model || '',
+      price: car.price || '',
+      rentPrice: car.rentPrice || '',
+      engine: car.engine || '',
+      hp: car.hp || '',
+      seats: car.seats || '',
+      image: car.image || '',
+      featured: car.featured || false
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const cancelEdit = () => {
+    setEditingCarId(null);
+    setFormData({
+      brand: '',
+      model: '',
+      price: '',
+      rentPrice: '',
+      engine: '',
+      hp: '',
+      seats: '',
+      image: '',
+      featured: false
+    });
   };
 
   const handleImageUpload = (e) => {
@@ -72,7 +104,7 @@ const Admin = () => {
     e.preventDefault();
     
     // Formatting data before saving
-    const newCar = {
+    const carData = {
       ...formData,
       price: Number(formData.price),
       rentPrice: Number(formData.rentPrice),
@@ -80,8 +112,14 @@ const Admin = () => {
       seats: Number(formData.seats),
     };
 
-    addCar(newCar);
-    setSuccessMessage('Vehicle successfully added to inventory!');
+    if (editingCarId) {
+      updateCar({ ...carData, id: editingCarId });
+      setSuccessMessage('Vehicle successfully updated!');
+      setEditingCarId(null);
+    } else {
+      addCar(carData);
+      setSuccessMessage('Vehicle successfully added to inventory!');
+    }
     
     // Reset form
     setFormData({
@@ -154,11 +192,9 @@ const Admin = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="image">Image (Upload File or Enter URL)</label>
-            <div className="image-input-container" style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
-              <input type="file" id="imageFile" accept="image/*" onChange={handleImageUpload} style={{ flex: 1, padding: '10px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '4px', color: '#fff' }} />
-              <span>OR</span>
-              <input type="url" id="image" name="image" value={formData.image} onChange={handleChange} placeholder="https://..." style={{ flex: 1 }} />
+            <label htmlFor="imageFile">Image (Upload File)</label>
+            <div className="image-input-container">
+              <input type="file" id="imageFile" accept="image/*" onChange={handleImageUpload} style={{ width: '100%', padding: '10px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '4px', color: '#fff' }} />
             </div>
             {formData.image && (
               <div style={{ marginTop: '15px' }}>
@@ -173,7 +209,16 @@ const Admin = () => {
             <label htmlFor="featured">Feature on Home Page</label>
           </div>
 
-          <button type="submit" className="btn btn-primary submit-btn">ADD VEHICLE &rarr;</button>
+          <div style={{ display: 'flex', gap: '15px' }}>
+            <button type="submit" className="btn btn-primary submit-btn">
+              {editingCarId ? 'UPDATE VEHICLE' : 'ADD VEHICLE'} &rarr;
+            </button>
+            {editingCarId && (
+              <button type="button" className="btn btn-secondary submit-btn" onClick={cancelEdit} style={{ background: 'transparent', border: '1px solid rgba(255,255,255,0.2)' }}>
+                CANCEL
+              </button>
+            )}
+          </div>
         </form>
 
         <div className="admin-inventory-list" style={{ marginTop: '4rem' }}>
@@ -186,7 +231,10 @@ const Admin = () => {
                   <div className="admin-car-details">
                     <h3>{car.brand} {car.model}</h3>
                     <p style={{ color: 'var(--color-gold)', marginBottom: '1rem' }}>${car.price.toLocaleString()}</p>
-                    <button className="btn-delete" onClick={() => removeCar(car.id)}>Remove</button>
+                    <div style={{ display: 'flex', gap: '10px' }}>
+                      <button className="btn-edit" onClick={() => handleEdit(car)} style={{ flex: 1, padding: '8px', background: 'rgba(255,255,255,0.1)', border: 'none', color: '#fff', cursor: 'pointer', borderRadius: '4px' }}>Edit</button>
+                      <button className="btn-delete" onClick={() => removeCar(car.id)} style={{ flex: 1 }}>Remove</button>
+                    </div>
                   </div>
                 </div>
               ))}

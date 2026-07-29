@@ -35,9 +35,12 @@ export const CarProvider = ({ children }) => {
   const removeCar = (carId) => {
     setCars(prevCars => prevCars.filter(car => car.id !== carId));
   };
+  const updateCar = (updatedCar) => {
+    setCars(prevCars => prevCars.map(car => car.id === updatedCar.id ? updatedCar : car));
+  };
 
   return (
-    <CarContext.Provider value={{ cars, addCar, removeCar }}>
+    <CarContext.Provider value={{ cars, addCar, removeCar, updateCar }}>
       {children}
     </CarContext.Provider>
   );
