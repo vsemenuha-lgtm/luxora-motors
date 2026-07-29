@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useCarContext } from '../context/CarContext';
-import { ArrowLeft, Check, Gauge, Settings2, Zap, Car } from 'lucide-react';
+import { ArrowLeft, Check, Gauge, Settings2, Zap, Car, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import './CarDetails.css';
 
 const CarDetails = () => {
@@ -9,6 +9,10 @@ const CarDetails = () => {
   const { cars } = useCarContext();
   const [car, setCar] = useState(null);
   const [activeImage, setActiveImage] = useState('');
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
 
   useEffect(() => {
     // Find car by id (id is a string from params, we might need to convert it)
@@ -36,6 +40,62 @@ const CarDetails = () => {
   }
 
   const allImages = car.images || [car.image];
+
+  const openLightbox = (index) => {
+    setLightboxIndex(index);
+    setLightboxOpen(true);
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeLightbox = () => {
+    setLightboxOpen(false);
+    document.body.style.overflow = 'auto';
+  };
+
+  const nextImage = useCallback(() => {
+    setLightboxIndex((prev) => (prev + 1) % allImages.length);
+  }, [allImages.length]);
+
+  const prevImage = useCallback(() => {
+    setLightboxIndex((prev) => (prev - 1 + allImages.length) % allImages.length);
+  }, [allImages.length]);
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (!lightboxOpen) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') nextImage();
+      if (e.key === 'ArrowLeft') prevImage();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [lightboxOpen, nextImage, prevImage]);
+
+  // Swipe handlers
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e) => {
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const onTouchEndHandler = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+    
+    if (isLeftSwipe) {
+      nextImage();
+    }
+    if (isRightSwipe) {
+      prevImage();
+    }
+  };
 
   return (
     <div className="car-details-page">
@@ -67,7 +127,11 @@ const CarDetails = () => {
         </div>
 
         <div className="car-details-gallery">
-          <div className="main-image-container">
+          <div 
+            className="main-image-container" 
+            onClick={() => openLightbox(allImages.indexOf(activeImage))}
+            style={{ cursor: 'pointer' }}
+          >
             <img src={activeImage} alt={`${car.brand} ${car.model}`} className="main-image" />
           </div>
           <div className="thumbnail-strip">
@@ -125,6 +189,41 @@ const CarDetails = () => {
           )}
         </div>
       </div>
+
+      {lightboxOpen && (
+        <div className="lightbox-overlay" onClick={closeLightbox}>
+          <button className="lightbox-close" onClick={closeLightbox}>
+            <X size={32} />
+          </button>
+          
+          <button 
+            className="lightbox-nav prev" 
+            onClick={(e) => { e.stopPropagation(); prevImage(); }}
+          >
+            <ChevronLeft size={48} />
+          </button>
+
+          <div 
+            className="lightbox-content"
+            onClick={(e) => e.stopPropagation()}
+            onTouchStart={onTouchStart}
+            onTouchMove={onTouchMove}
+            onTouchEnd={onTouchEndHandler}
+          >
+            <img src={allImages[lightboxIndex]} alt={`Gallery view ${lightboxIndex + 1}`} />
+            <div className="lightbox-counter">
+              {lightboxIndex + 1} / {allImages.length}
+            </div>
+          </div>
+
+          <button 
+            className="lightbox-nav next" 
+            onClick={(e) => { e.stopPropagation(); nextImage(); }}
+          >
+            <ChevronRight size={48} />
+          </button>
+        </div>
+      )}
     </div>
   );
 };
