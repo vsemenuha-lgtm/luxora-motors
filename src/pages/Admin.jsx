@@ -3,7 +3,7 @@ import { useCarContext } from '../context/CarContext';
 import './Admin.css';
 
 const Admin = () => {
-  const { addCar } = useCarContext();
+  const { cars, addCar, removeCar } = useCarContext();
   const [formData, setFormData] = useState({
     brand: '',
     model: '',
@@ -175,6 +175,26 @@ const Admin = () => {
 
           <button type="submit" className="btn btn-primary submit-btn">ADD VEHICLE &rarr;</button>
         </form>
+
+        <div className="admin-inventory-list" style={{ marginTop: '4rem' }}>
+          <h2 className="title" style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>Manage Inventory</h2>
+          {cars && cars.length > 0 ? (
+            <div className="admin-car-grid">
+              {cars.map(car => (
+                <div key={car.id} className="admin-car-card">
+                  <div className="admin-car-image" style={{ backgroundImage: `url(${car.image})` }}></div>
+                  <div className="admin-car-details">
+                    <h3>{car.brand} {car.model}</h3>
+                    <p style={{ color: 'var(--color-gold)', marginBottom: '1rem' }}>${car.price.toLocaleString()}</p>
+                    <button className="btn-delete" onClick={() => removeCar(car.id)}>Remove</button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p>No vehicles in inventory.</p>
+          )}
+        </div>
       </div>
     </div>
   );

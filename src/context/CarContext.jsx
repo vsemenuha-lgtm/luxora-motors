@@ -32,8 +32,12 @@ export const CarProvider = ({ children }) => {
     ]);
   };
 
+  const removeCar = (carId) => {
+    setCars(prevCars => prevCars.filter(car => car.id !== carId));
+  };
+
   return (
-    <CarContext.Provider value={{ cars, addCar }}>
+    <CarContext.Provider value={{ cars, addCar, removeCar }}>
       {children}
     </CarContext.Provider>
   );
