@@ -30,16 +30,7 @@ const CarDetails = () => {
     window.scrollTo(0, 0);
   }, [id, cars]);
 
-  if (!car) {
-    return (
-      <div className="car-details-loading">
-        <h2>Loading car details...</h2>
-        <Link to="/inventory" className="btn btn-primary mt-4">Back to Inventory</Link>
-      </div>
-    );
-  }
-
-  const allImages = car.images || [car.image];
+  const allImages = car ? (car.images || [car.image]) : [];
 
   const openLightbox = (index) => {
     setLightboxIndex(index);
@@ -96,6 +87,15 @@ const CarDetails = () => {
       prevImage();
     }
   };
+
+  if (!car) {
+    return (
+      <div className="car-details-loading">
+        <h2>Loading car details...</h2>
+        <Link to="/inventory" className="btn btn-primary mt-4">Back to Inventory</Link>
+      </div>
+    );
+  }
 
   return (
     <div className="car-details-page">
