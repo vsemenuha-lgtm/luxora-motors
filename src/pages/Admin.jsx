@@ -25,6 +25,49 @@ const Admin = () => {
     }));
   };
 
+  const handleImageUpload = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        const img = new Image();
+        img.onload = () => {
+          const canvas = document.createElement('canvas');
+          let width = img.width;
+          let height = img.height;
+          
+          const MAX_WIDTH = 1920;
+          const MAX_HEIGHT = 1080;
+          
+          if (width > height) {
+            if (width > MAX_WIDTH) {
+              height *= MAX_WIDTH / width;
+              width = MAX_WIDTH;
+            }
+          } else {
+            if (height > MAX_HEIGHT) {
+              width *= MAX_HEIGHT / height;
+              height = MAX_HEIGHT;
+            }
+          }
+          
+          canvas.width = width;
+          canvas.height = height;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0, width, height);
+          
+          const dataUrl = canvas.toDataURL('image/jpeg', 0.8);
+          setFormData(prev => ({
+            ...prev,
+            image: dataUrl
+          }));
+        };
+        img.src = reader.result;
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     
@@ -111,8 +154,18 @@ const Admin = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="image">Image URL</label>
-            <input type="url" id="image" name="image" value={formData.image} onChange={handleChange} required placeholder="https://..." />
+            <label htmlFor="image">Image (Upload File or Enter URL)</label>
+            <div className="image-input-container" style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+              <input type="file" id="imageFile" accept="image/*" onChange={handleImageUpload} style={{ flex: 1, padding: '10px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '4px', color: '#fff' }} />
+              <span>OR</span>
+              <input type="url" id="image" name="image" value={formData.image} onChange={handleChange} placeholder="https://..." style={{ flex: 1 }} />
+            </div>
+            {formData.image && (
+              <div style={{ marginTop: '15px' }}>
+                <p style={{ marginBottom: '5px', fontSize: '0.9rem', color: '#aaa' }}>Image Preview:</p>
+                <img src={formData.image} alt="Preview" style={{ maxHeight: '200px', objectFit: 'contain', borderRadius: '4px', border: '1px solid rgba(255,255,255,0.1)' }} />
+              </div>
+            )}
           </div>
 
           <div className="form-group checkbox-group">
