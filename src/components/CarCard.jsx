@@ -8,7 +8,7 @@ const CarCard = ({ car }) => {
     <div className="car-card glass-panel">
       <Link to={`/car/${car.id}`} className="car-image-link" style={{display: 'block'}}>
         <div className="car-image">
-          <img src={car.image.startsWith('http') ? car.image : ${import.meta.env.BASE_URL}} alt={`${car.brand} ${car.model}`} loading="lazy" />
+          <img src={car.image} alt={`${car.brand} ${car.model}`} loading="lazy" />
           <button className="like-btn" onClick={(e) => { e.preventDefault(); alert('Added to favorites!'); }}>
             <Heart size={20} />
           </button>
