@@ -8,13 +8,16 @@ export const useCarContext = () => useContext(CarContext);
 export const CarProvider = ({ children }) => {
   const [cars, setCars] = useState(() => {
     const savedCars = localStorage.getItem('luxora_cars');
-    if (savedCars) {
+    const version = localStorage.getItem('luxora_version');
+    if (savedCars && version === '1.1') {
       try {
         return JSON.parse(savedCars);
       } catch (e) {
         console.error("Error parsing cars from localStorage", e);
       }
     }
+    // If no version match or no saved cars, use defaults and set version
+    localStorage.setItem('luxora_version', '1.1');
     return defaultCars;
   });
 
