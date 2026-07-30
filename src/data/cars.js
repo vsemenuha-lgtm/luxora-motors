@@ -8,10 +8,14 @@ export const cars = [
     "engine": "5.2L V12",
     "hp": 608,
     "seats": 2,
-    "image": "cars/car_1.jpg",
+    "image": "https://picsum.photos/seed/astonmartindb1111/800/600",
     "featured": true,
     "images": [
-      "cars/car_1.jpg"
+      "https://picsum.photos/seed/astonmartindb1111/800/600",
+      "https://picsum.photos/seed/astonmartindb1112/800/600",
+      "https://picsum.photos/seed/astonmartindb1113/800/600",
+      "https://picsum.photos/seed/astonmartindb1114/800/600",
+      "https://picsum.photos/seed/astonmartindb1115/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Aston Martin DB11. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Aston Martin.",
     "specs": {
@@ -31,10 +35,14 @@ export const cars = [
     "engine": "6.75L V12",
     "hp": 563,
     "seats": 5,
-    "image": "cars/car_2.jpg",
+    "image": "https://picsum.photos/seed/rolls-royceghost21/800/600",
     "featured": true,
     "images": [
-      "cars/car_2.jpg"
+      "https://picsum.photos/seed/rolls-royceghost21/800/600",
+      "https://picsum.photos/seed/rolls-royceghost22/800/600",
+      "https://picsum.photos/seed/rolls-royceghost23/800/600",
+      "https://picsum.photos/seed/rolls-royceghost24/800/600",
+      "https://picsum.photos/seed/rolls-royceghost25/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Rolls-Royce Ghost. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Rolls-Royce.",
     "specs": {
@@ -54,10 +62,14 @@ export const cars = [
     "engine": "6.5L V12",
     "hp": 789,
     "seats": 2,
-    "image": "cars/car_3.jpg",
+    "image": "https://picsum.photos/seed/ferrari812superfast31/800/600",
     "featured": true,
     "images": [
-      "cars/car_3.jpg"
+      "https://picsum.photos/seed/ferrari812superfast31/800/600",
+      "https://picsum.photos/seed/ferrari812superfast32/800/600",
+      "https://picsum.photos/seed/ferrari812superfast33/800/600",
+      "https://picsum.photos/seed/ferrari812superfast34/800/600",
+      "https://picsum.photos/seed/ferrari812superfast35/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Ferrari 812 Superfast. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Ferrari.",
     "specs": {
@@ -77,10 +89,14 @@ export const cars = [
     "engine": "6.5L V12",
     "hp": 759,
     "seats": 2,
-    "image": "cars/car_4.jpg",
+    "image": "https://picsum.photos/seed/lamborghiniaventadorsvj41/800/600",
     "featured": true,
     "images": [
-      "cars/car_4.jpg"
+      "https://picsum.photos/seed/lamborghiniaventadorsvj41/800/600",
+      "https://picsum.photos/seed/lamborghiniaventadorsvj42/800/600",
+      "https://picsum.photos/seed/lamborghiniaventadorsvj43/800/600",
+      "https://picsum.photos/seed/lamborghiniaventadorsvj44/800/600",
+      "https://picsum.photos/seed/lamborghiniaventadorsvj45/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Lamborghini Aventador SVJ. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Lamborghini.",
     "specs": {
@@ -100,9 +116,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 542,
     "seats": 4,
-    "image": "cars/car_5.jpg",
+    "image": "https://picsum.photos/seed/bentleycontinentalgt51/800/600",
     "images": [
-      "cars/car_5.jpg"
+      "https://picsum.photos/seed/bentleycontinentalgt51/800/600",
+      "https://picsum.photos/seed/bentleycontinentalgt52/800/600",
+      "https://picsum.photos/seed/bentleycontinentalgt53/800/600",
+      "https://picsum.photos/seed/bentleycontinentalgt54/800/600",
+      "https://picsum.photos/seed/bentleycontinentalgt55/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Bentley Continental GT. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Bentley.",
     "specs": {
@@ -122,9 +142,13 @@ export const cars = [
     "engine": "3.8L Flat-6",
     "hp": 640,
     "seats": 4,
-    "image": "cars/car_6.jpg",
+    "image": "https://picsum.photos/seed/porsche911turbos61/800/600",
     "images": [
-      "cars/car_6.jpg"
+      "https://picsum.photos/seed/porsche911turbos61/800/600",
+      "https://picsum.photos/seed/porsche911turbos62/800/600",
+      "https://picsum.photos/seed/porsche911turbos63/800/600",
+      "https://picsum.photos/seed/porsche911turbos64/800/600",
+      "https://picsum.photos/seed/porsche911turbos65/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Porsche 911 Turbo S. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Porsche.",
     "specs": {
@@ -144,9 +168,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 710,
     "seats": 2,
-    "image": "cars/car_7.jpg",
+    "image": "https://picsum.photos/seed/mclaren720s71/800/600",
     "images": [
-      "cars/car_7.jpg"
+      "https://picsum.photos/seed/mclaren720s71/800/600",
+      "https://picsum.photos/seed/mclaren720s72/800/600",
+      "https://picsum.photos/seed/mclaren720s73/800/600",
+      "https://picsum.photos/seed/mclaren720s74/800/600",
+      "https://picsum.photos/seed/mclaren720s75/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the McLaren 720S. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of McLaren.",
     "specs": {
@@ -166,9 +194,13 @@ export const cars = [
     "engine": "6.75L V12",
     "hp": 563,
     "seats": 5,
-    "image": "cars/car_8.jpg",
+    "image": "https://picsum.photos/seed/rolls-roycecullinan81/800/600",
     "images": [
-      "cars/car_8.jpg"
+      "https://picsum.photos/seed/rolls-roycecullinan81/800/600",
+      "https://picsum.photos/seed/rolls-roycecullinan82/800/600",
+      "https://picsum.photos/seed/rolls-roycecullinan83/800/600",
+      "https://picsum.photos/seed/rolls-roycecullinan84/800/600",
+      "https://picsum.photos/seed/rolls-roycecullinan85/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Rolls-Royce Cullinan. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Rolls-Royce.",
     "specs": {
@@ -188,9 +220,13 @@ export const cars = [
     "engine": "3.9L V8",
     "hp": 710,
     "seats": 2,
-    "image": "cars/car_9.jpg",
+    "image": "https://picsum.photos/seed/ferrarif8tributo91/800/600",
     "images": [
-      "cars/car_9.jpg"
+      "https://picsum.photos/seed/ferrarif8tributo91/800/600",
+      "https://picsum.photos/seed/ferrarif8tributo92/800/600",
+      "https://picsum.photos/seed/ferrarif8tributo93/800/600",
+      "https://picsum.photos/seed/ferrarif8tributo94/800/600",
+      "https://picsum.photos/seed/ferrarif8tributo95/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Ferrari F8 Tributo. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Ferrari.",
     "specs": {
@@ -210,9 +246,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 577,
     "seats": 5,
-    "image": "cars/car_10.jpg",
+    "image": "https://picsum.photos/seed/mercedes-benzg63amg101/800/600",
     "images": [
-      "cars/car_10.jpg"
+      "https://picsum.photos/seed/mercedes-benzg63amg101/800/600",
+      "https://picsum.photos/seed/mercedes-benzg63amg102/800/600",
+      "https://picsum.photos/seed/mercedes-benzg63amg103/800/600",
+      "https://picsum.photos/seed/mercedes-benzg63amg104/800/600",
+      "https://picsum.photos/seed/mercedes-benzg63amg105/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Mercedes-Benz G63 AMG. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Mercedes-Benz.",
     "specs": {
@@ -232,9 +272,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 641,
     "seats": 5,
-    "image": "cars/car_11.jpg",
+    "image": "https://picsum.photos/seed/lamborghiniurus111/800/600",
     "images": [
-      "cars/car_11.jpg"
+      "https://picsum.photos/seed/lamborghiniurus111/800/600",
+      "https://picsum.photos/seed/lamborghiniurus112/800/600",
+      "https://picsum.photos/seed/lamborghiniurus113/800/600",
+      "https://picsum.photos/seed/lamborghiniurus114/800/600",
+      "https://picsum.photos/seed/lamborghiniurus115/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Lamborghini Urus. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Lamborghini.",
     "specs": {
@@ -254,9 +298,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 503,
     "seats": 2,
-    "image": "cars/car_12.jpg",
+    "image": "https://picsum.photos/seed/astonmartinvantage121/800/600",
     "images": [
-      "cars/car_12.jpg"
+      "https://picsum.photos/seed/astonmartinvantage121/800/600",
+      "https://picsum.photos/seed/astonmartinvantage122/800/600",
+      "https://picsum.photos/seed/astonmartinvantage123/800/600",
+      "https://picsum.photos/seed/astonmartinvantage124/800/600",
+      "https://picsum.photos/seed/astonmartinvantage125/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Aston Martin Vantage. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Aston Martin.",
     "specs": {
@@ -276,9 +324,13 @@ export const cars = [
     "engine": "Electric",
     "hp": 750,
     "seats": 4,
-    "image": "cars/car_13.jpg",
+    "image": "https://picsum.photos/seed/porschetaycanturbos131/800/600",
     "images": [
-      "cars/car_13.jpg"
+      "https://picsum.photos/seed/porschetaycanturbos131/800/600",
+      "https://picsum.photos/seed/porschetaycanturbos132/800/600",
+      "https://picsum.photos/seed/porschetaycanturbos133/800/600",
+      "https://picsum.photos/seed/porschetaycanturbos134/800/600",
+      "https://picsum.photos/seed/porschetaycanturbos135/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Porsche Taycan Turbo S. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Porsche.",
     "specs": {
@@ -298,9 +350,13 @@ export const cars = [
     "engine": "6.75L V12",
     "hp": 563,
     "seats": 5,
-    "image": "cars/car_14.jpg",
+    "image": "https://picsum.photos/seed/rolls-roycephantom141/800/600",
     "images": [
-      "cars/car_14.jpg"
+      "https://picsum.photos/seed/rolls-roycephantom141/800/600",
+      "https://picsum.photos/seed/rolls-roycephantom142/800/600",
+      "https://picsum.photos/seed/rolls-roycephantom143/800/600",
+      "https://picsum.photos/seed/rolls-roycephantom144/800/600",
+      "https://picsum.photos/seed/rolls-roycephantom145/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Rolls-Royce Phantom. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Rolls-Royce.",
     "specs": {
@@ -320,9 +376,13 @@ export const cars = [
     "engine": "3.0L V6 Hybrid",
     "hp": 671,
     "seats": 2,
-    "image": "cars/car_15.jpg",
+    "image": "https://picsum.photos/seed/mclarenartura151/800/600",
     "images": [
-      "cars/car_15.jpg"
+      "https://picsum.photos/seed/mclarenartura151/800/600",
+      "https://picsum.photos/seed/mclarenartura152/800/600",
+      "https://picsum.photos/seed/mclarenartura153/800/600",
+      "https://picsum.photos/seed/mclarenartura154/800/600",
+      "https://picsum.photos/seed/mclarenartura155/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the McLaren Artura. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of McLaren.",
     "specs": {
@@ -342,9 +402,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 542,
     "seats": 5,
-    "image": "cars/car_16.jpg",
+    "image": "https://picsum.photos/seed/bentleybentayga161/800/600",
     "images": [
-      "cars/car_16.jpg"
+      "https://picsum.photos/seed/bentleybentayga161/800/600",
+      "https://picsum.photos/seed/bentleybentayga162/800/600",
+      "https://picsum.photos/seed/bentleybentayga163/800/600",
+      "https://picsum.photos/seed/bentleybentayga164/800/600",
+      "https://picsum.photos/seed/bentleybentayga165/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Bentley Bentayga. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Bentley.",
     "specs": {
@@ -364,9 +428,13 @@ export const cars = [
     "engine": "4.0L V8 Hybrid",
     "hp": 986,
     "seats": 2,
-    "image": "cars/car_17.jpg",
+    "image": "https://picsum.photos/seed/ferrarisf90stradale171/800/600",
     "images": [
-      "cars/car_17.jpg"
+      "https://picsum.photos/seed/ferrarisf90stradale171/800/600",
+      "https://picsum.photos/seed/ferrarisf90stradale172/800/600",
+      "https://picsum.photos/seed/ferrarisf90stradale173/800/600",
+      "https://picsum.photos/seed/ferrarisf90stradale174/800/600",
+      "https://picsum.photos/seed/ferrarisf90stradale175/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Ferrari SF90 Stradale. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Ferrari.",
     "specs": {
@@ -386,9 +454,13 @@ export const cars = [
     "engine": "5.2L V10",
     "hp": 631,
     "seats": 2,
-    "image": "cars/car_18.jpg",
+    "image": "https://picsum.photos/seed/lamborghinihuracanevo181/800/600",
     "images": [
-      "cars/car_18.jpg"
+      "https://picsum.photos/seed/lamborghinihuracanevo181/800/600",
+      "https://picsum.photos/seed/lamborghinihuracanevo182/800/600",
+      "https://picsum.photos/seed/lamborghinihuracanevo183/800/600",
+      "https://picsum.photos/seed/lamborghinihuracanevo184/800/600",
+      "https://picsum.photos/seed/lamborghinihuracanevo185/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Lamborghini Huracan EVO. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Lamborghini.",
     "specs": {
@@ -408,9 +480,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 496,
     "seats": 5,
-    "image": "cars/car_19.jpg",
+    "image": "https://picsum.photos/seed/mercedes-maybachs580191/800/600",
     "images": [
-      "cars/car_19.jpg"
+      "https://picsum.photos/seed/mercedes-maybachs580191/800/600",
+      "https://picsum.photos/seed/mercedes-maybachs580192/800/600",
+      "https://picsum.photos/seed/mercedes-maybachs580193/800/600",
+      "https://picsum.photos/seed/mercedes-maybachs580194/800/600",
+      "https://picsum.photos/seed/mercedes-maybachs580195/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Mercedes-Maybach S 580. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Mercedes-Maybach.",
     "specs": {
@@ -430,9 +506,13 @@ export const cars = [
     "engine": "5.2L V12",
     "hp": 715,
     "seats": 4,
-    "image": "cars/car_20.jpg",
+    "image": "https://picsum.photos/seed/astonmartindbssuperleggera201/800/600",
     "images": [
-      "cars/car_20.jpg"
+      "https://picsum.photos/seed/astonmartindbssuperleggera201/800/600",
+      "https://picsum.photos/seed/astonmartindbssuperleggera202/800/600",
+      "https://picsum.photos/seed/astonmartindbssuperleggera203/800/600",
+      "https://picsum.photos/seed/astonmartindbssuperleggera204/800/600",
+      "https://picsum.photos/seed/astonmartindbssuperleggera205/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Aston Martin DBS Superleggera. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Aston Martin.",
     "specs": {
@@ -452,9 +532,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 620,
     "seats": 4,
-    "image": "cars/car_21.jpg",
+    "image": "https://picsum.photos/seed/porschepanameraturbos211/800/600",
     "images": [
-      "cars/car_21.jpg"
+      "https://picsum.photos/seed/porschepanameraturbos211/800/600",
+      "https://picsum.photos/seed/porschepanameraturbos212/800/600",
+      "https://picsum.photos/seed/porschepanameraturbos213/800/600",
+      "https://picsum.photos/seed/porschepanameraturbos214/800/600",
+      "https://picsum.photos/seed/porschepanameraturbos215/800/600"
     ],
     "description": "Experience the epitome of luxury and performance with the Porsche Panamera Turbo S. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Porsche.",
     "specs": {

@@ -16,7 +16,7 @@ const updatedCars = cars.map(car => {
   
   // Generate 5 distinct image URLs using loremflickr
   // We use lock to ensure we get different images for the same keywords
-  const generateImg = (lockId) => `https://loremflickr.com/800/600/${brandParam},${modelParam}/all?lock=${lockId}`;
+  const generateImg = (lockId) => `https://picsum.photos/seed/${brandParam}${modelParam}${lockId}/800/600`;
   
   const newImages = [
     generateImg(car.id * 10 + 1),
