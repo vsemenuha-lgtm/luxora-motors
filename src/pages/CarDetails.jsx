@@ -132,7 +132,7 @@ const CarDetails = () => {
             onClick={() => openLightbox(allImages.indexOf(activeImage))}
             style={{ cursor: 'pointer' }}
           >
-            <img src={activeImage} alt={`${car.brand} ${car.model}`} className="main-image" />
+            <img src={activeImage.startsWith("http") ? activeImage : `${import.meta.env.BASE_URL}${activeImage}`} alt={`${car.brand} ${car.model}`} className="main-image" />
           </div>
           <div className="thumbnail-strip">
             {allImages.map((img, index) => (
@@ -141,7 +141,7 @@ const CarDetails = () => {
                 className={`thumbnail ${activeImage === img ? 'active' : ''}`}
                 onClick={() => setActiveImage(img)}
               >
-                <img src={img} alt={`Thumbnail ${index + 1}`} />
+                <img src={img.startsWith("http") ? img : `${import.meta.env.BASE_URL}${img}`} alt={`Thumbnail ${index + 1}`} />
               </div>
             ))}
           </div>

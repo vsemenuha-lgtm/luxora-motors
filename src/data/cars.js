@@ -8,14 +8,14 @@ export const cars = [
     "engine": "5.2L V12",
     "hp": 608,
     "seats": 2,
-    "image": "cars/car_1.jpg",
+    "image": "/luxora-motors/cars/car_1.jpg",
     "featured": true,
     "images": [
-      "cars/car_1.jpg",
-      "cars/car_1.jpg",
-      "cars/car_1.jpg",
-      "cars/car_1.jpg",
-      "cars/car_1.jpg"
+      "/luxora-motors/cars/car_1.jpg",
+      "/luxora-motors/cars/car_1.jpg",
+      "/luxora-motors/cars/car_1.jpg",
+      "/luxora-motors/cars/car_1.jpg",
+      "/luxora-motors/cars/car_1.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Aston Martin DB11. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Aston Martin.",
     "specs": {
@@ -35,14 +35,14 @@ export const cars = [
     "engine": "6.75L V12",
     "hp": 563,
     "seats": 5,
-    "image": "cars/car_2.jpg",
+    "image": "/luxora-motors/cars/car_2.jpg",
     "featured": true,
     "images": [
-      "cars/car_2.jpg",
-      "cars/car_2.jpg",
-      "cars/car_2.jpg",
-      "cars/car_2.jpg",
-      "cars/car_2.jpg"
+      "/luxora-motors/cars/car_2.jpg",
+      "/luxora-motors/cars/car_2.jpg",
+      "/luxora-motors/cars/car_2.jpg",
+      "/luxora-motors/cars/car_2.jpg",
+      "/luxora-motors/cars/car_2.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Rolls-Royce Ghost. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Rolls-Royce.",
     "specs": {
@@ -62,14 +62,14 @@ export const cars = [
     "engine": "6.5L V12",
     "hp": 789,
     "seats": 2,
-    "image": "cars/car_3.jpg",
+    "image": "/luxora-motors/cars/car_3.jpg",
     "featured": true,
     "images": [
-      "cars/car_3.jpg",
-      "cars/car_3.jpg",
-      "cars/car_3.jpg",
-      "cars/car_3.jpg",
-      "cars/car_3.jpg"
+      "/luxora-motors/cars/car_3.jpg",
+      "/luxora-motors/cars/car_3.jpg",
+      "/luxora-motors/cars/car_3.jpg",
+      "/luxora-motors/cars/car_3.jpg",
+      "/luxora-motors/cars/car_3.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Ferrari 812 Superfast. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Ferrari.",
     "specs": {
@@ -89,14 +89,14 @@ export const cars = [
     "engine": "6.5L V12",
     "hp": 759,
     "seats": 2,
-    "image": "cars/car_4.jpg",
+    "image": "/luxora-motors/cars/car_4.jpg",
     "featured": true,
     "images": [
-      "cars/car_4.jpg",
-      "cars/car_4.jpg",
-      "cars/car_4.jpg",
-      "cars/car_4.jpg",
-      "cars/car_4.jpg"
+      "/luxora-motors/cars/car_4.jpg",
+      "/luxora-motors/cars/car_4.jpg",
+      "/luxora-motors/cars/car_4.jpg",
+      "/luxora-motors/cars/car_4.jpg",
+      "/luxora-motors/cars/car_4.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Lamborghini Aventador SVJ. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Lamborghini.",
     "specs": {
@@ -116,13 +116,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 542,
     "seats": 4,
-    "image": "cars/car_5.jpg",
+    "image": "/luxora-motors/cars/car_5.jpg",
     "images": [
-      "cars/car_5.jpg",
-      "cars/car_5.jpg",
-      "cars/car_5.jpg",
-      "cars/car_5.jpg",
-      "cars/car_5.jpg"
+      "/luxora-motors/cars/car_5.jpg",
+      "/luxora-motors/cars/car_5.jpg",
+      "/luxora-motors/cars/car_5.jpg",
+      "/luxora-motors/cars/car_5.jpg",
+      "/luxora-motors/cars/car_5.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Bentley Continental GT. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Bentley.",
     "specs": {
@@ -142,13 +142,13 @@ export const cars = [
     "engine": "3.8L Flat-6",
     "hp": 640,
     "seats": 4,
-    "image": "cars/car_6.jpg",
+    "image": "/luxora-motors/cars/car_6.jpg",
     "images": [
-      "cars/car_6.jpg",
-      "cars/car_6.jpg",
-      "cars/car_6.jpg",
-      "cars/car_6.jpg",
-      "cars/car_6.jpg"
+      "/luxora-motors/cars/car_6.jpg",
+      "/luxora-motors/cars/car_6.jpg",
+      "/luxora-motors/cars/car_6.jpg",
+      "/luxora-motors/cars/car_6.jpg",
+      "/luxora-motors/cars/car_6.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Porsche 911 Turbo S. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Porsche.",
     "specs": {
@@ -168,13 +168,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 710,
     "seats": 2,
-    "image": "cars/car_7.jpg",
+    "image": "/luxora-motors/cars/car_7.jpg",
     "images": [
-      "cars/car_7.jpg",
-      "cars/car_7.jpg",
-      "cars/car_7.jpg",
-      "cars/car_7.jpg",
-      "cars/car_7.jpg"
+      "/luxora-motors/cars/car_7.jpg",
+      "/luxora-motors/cars/car_7.jpg",
+      "/luxora-motors/cars/car_7.jpg",
+      "/luxora-motors/cars/car_7.jpg",
+      "/luxora-motors/cars/car_7.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the McLaren 720S. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of McLaren.",
     "specs": {
@@ -194,13 +194,13 @@ export const cars = [
     "engine": "6.75L V12",
     "hp": 563,
     "seats": 5,
-    "image": "cars/car_8.jpg",
+    "image": "/luxora-motors/cars/car_8.jpg",
     "images": [
-      "cars/car_8.jpg",
-      "cars/car_8.jpg",
-      "cars/car_8.jpg",
-      "cars/car_8.jpg",
-      "cars/car_8.jpg"
+      "/luxora-motors/cars/car_8.jpg",
+      "/luxora-motors/cars/car_8.jpg",
+      "/luxora-motors/cars/car_8.jpg",
+      "/luxora-motors/cars/car_8.jpg",
+      "/luxora-motors/cars/car_8.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Rolls-Royce Cullinan. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Rolls-Royce.",
     "specs": {
@@ -220,13 +220,13 @@ export const cars = [
     "engine": "3.9L V8",
     "hp": 710,
     "seats": 2,
-    "image": "cars/car_9.jpg",
+    "image": "/luxora-motors/cars/car_9.jpg",
     "images": [
-      "cars/car_9.jpg",
-      "cars/car_9.jpg",
-      "cars/car_9.jpg",
-      "cars/car_9.jpg",
-      "cars/car_9.jpg"
+      "/luxora-motors/cars/car_9.jpg",
+      "/luxora-motors/cars/car_9.jpg",
+      "/luxora-motors/cars/car_9.jpg",
+      "/luxora-motors/cars/car_9.jpg",
+      "/luxora-motors/cars/car_9.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Ferrari F8 Tributo. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Ferrari.",
     "specs": {
@@ -246,13 +246,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 577,
     "seats": 5,
-    "image": "cars/car_10.jpg",
+    "image": "/luxora-motors/cars/car_10.jpg",
     "images": [
-      "cars/car_10.jpg",
-      "cars/car_10.jpg",
-      "cars/car_10.jpg",
-      "cars/car_10.jpg",
-      "cars/car_10.jpg"
+      "/luxora-motors/cars/car_10.jpg",
+      "/luxora-motors/cars/car_10.jpg",
+      "/luxora-motors/cars/car_10.jpg",
+      "/luxora-motors/cars/car_10.jpg",
+      "/luxora-motors/cars/car_10.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Mercedes-Benz G63 AMG. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Mercedes-Benz.",
     "specs": {
@@ -272,13 +272,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 641,
     "seats": 5,
-    "image": "cars/car_11.jpg",
+    "image": "/luxora-motors/cars/car_11.jpg",
     "images": [
-      "cars/car_11.jpg",
-      "cars/car_11.jpg",
-      "cars/car_11.jpg",
-      "cars/car_11.jpg",
-      "cars/car_11.jpg"
+      "/luxora-motors/cars/car_11.jpg",
+      "/luxora-motors/cars/car_11.jpg",
+      "/luxora-motors/cars/car_11.jpg",
+      "/luxora-motors/cars/car_11.jpg",
+      "/luxora-motors/cars/car_11.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Lamborghini Urus. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Lamborghini.",
     "specs": {
@@ -298,13 +298,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 503,
     "seats": 2,
-    "image": "cars/car_12.jpg",
+    "image": "/luxora-motors/cars/car_12.jpg",
     "images": [
-      "cars/car_12.jpg",
-      "cars/car_12.jpg",
-      "cars/car_12.jpg",
-      "cars/car_12.jpg",
-      "cars/car_12.jpg"
+      "/luxora-motors/cars/car_12.jpg",
+      "/luxora-motors/cars/car_12.jpg",
+      "/luxora-motors/cars/car_12.jpg",
+      "/luxora-motors/cars/car_12.jpg",
+      "/luxora-motors/cars/car_12.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Aston Martin Vantage. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Aston Martin.",
     "specs": {
@@ -324,13 +324,13 @@ export const cars = [
     "engine": "Electric",
     "hp": 750,
     "seats": 4,
-    "image": "cars/car_13.jpg",
+    "image": "/luxora-motors/cars/car_13.jpg",
     "images": [
-      "cars/car_13.jpg",
-      "cars/car_13.jpg",
-      "cars/car_13.jpg",
-      "cars/car_13.jpg",
-      "cars/car_13.jpg"
+      "/luxora-motors/cars/car_13.jpg",
+      "/luxora-motors/cars/car_13.jpg",
+      "/luxora-motors/cars/car_13.jpg",
+      "/luxora-motors/cars/car_13.jpg",
+      "/luxora-motors/cars/car_13.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Porsche Taycan Turbo S. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Porsche.",
     "specs": {
@@ -350,13 +350,13 @@ export const cars = [
     "engine": "6.75L V12",
     "hp": 563,
     "seats": 5,
-    "image": "cars/car_14.jpg",
+    "image": "/luxora-motors/cars/car_14.jpg",
     "images": [
-      "cars/car_14.jpg",
-      "cars/car_14.jpg",
-      "cars/car_14.jpg",
-      "cars/car_14.jpg",
-      "cars/car_14.jpg"
+      "/luxora-motors/cars/car_14.jpg",
+      "/luxora-motors/cars/car_14.jpg",
+      "/luxora-motors/cars/car_14.jpg",
+      "/luxora-motors/cars/car_14.jpg",
+      "/luxora-motors/cars/car_14.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Rolls-Royce Phantom. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Rolls-Royce.",
     "specs": {
@@ -376,13 +376,13 @@ export const cars = [
     "engine": "3.0L V6 Hybrid",
     "hp": 671,
     "seats": 2,
-    "image": "cars/car_15.jpg",
+    "image": "/luxora-motors/cars/car_15.jpg",
     "images": [
-      "cars/car_15.jpg",
-      "cars/car_15.jpg",
-      "cars/car_15.jpg",
-      "cars/car_15.jpg",
-      "cars/car_15.jpg"
+      "/luxora-motors/cars/car_15.jpg",
+      "/luxora-motors/cars/car_15.jpg",
+      "/luxora-motors/cars/car_15.jpg",
+      "/luxora-motors/cars/car_15.jpg",
+      "/luxora-motors/cars/car_15.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the McLaren Artura. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of McLaren.",
     "specs": {
@@ -402,13 +402,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 542,
     "seats": 5,
-    "image": "cars/car_16.jpg",
+    "image": "/luxora-motors/cars/car_16.jpg",
     "images": [
-      "cars/car_16.jpg",
-      "cars/car_16.jpg",
-      "cars/car_16.jpg",
-      "cars/car_16.jpg",
-      "cars/car_16.jpg"
+      "/luxora-motors/cars/car_16.jpg",
+      "/luxora-motors/cars/car_16.jpg",
+      "/luxora-motors/cars/car_16.jpg",
+      "/luxora-motors/cars/car_16.jpg",
+      "/luxora-motors/cars/car_16.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Bentley Bentayga. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Bentley.",
     "specs": {
@@ -428,13 +428,13 @@ export const cars = [
     "engine": "4.0L V8 Hybrid",
     "hp": 986,
     "seats": 2,
-    "image": "cars/car_17.jpg",
+    "image": "/luxora-motors/cars/car_17.jpg",
     "images": [
-      "cars/car_17.jpg",
-      "cars/car_17.jpg",
-      "cars/car_17.jpg",
-      "cars/car_17.jpg",
-      "cars/car_17.jpg"
+      "/luxora-motors/cars/car_17.jpg",
+      "/luxora-motors/cars/car_17.jpg",
+      "/luxora-motors/cars/car_17.jpg",
+      "/luxora-motors/cars/car_17.jpg",
+      "/luxora-motors/cars/car_17.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Ferrari SF90 Stradale. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Ferrari.",
     "specs": {
@@ -454,13 +454,13 @@ export const cars = [
     "engine": "5.2L V10",
     "hp": 631,
     "seats": 2,
-    "image": "cars/car_18.jpg",
+    "image": "/luxora-motors/cars/car_18.jpg",
     "images": [
-      "cars/car_18.jpg",
-      "cars/car_18.jpg",
-      "cars/car_18.jpg",
-      "cars/car_18.jpg",
-      "cars/car_18.jpg"
+      "/luxora-motors/cars/car_18.jpg",
+      "/luxora-motors/cars/car_18.jpg",
+      "/luxora-motors/cars/car_18.jpg",
+      "/luxora-motors/cars/car_18.jpg",
+      "/luxora-motors/cars/car_18.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Lamborghini Huracan EVO. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Lamborghini.",
     "specs": {
@@ -480,13 +480,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 496,
     "seats": 5,
-    "image": "cars/car_19.jpg",
+    "image": "/luxora-motors/cars/car_19.jpg",
     "images": [
-      "cars/car_19.jpg",
-      "cars/car_19.jpg",
-      "cars/car_19.jpg",
-      "cars/car_19.jpg",
-      "cars/car_19.jpg"
+      "/luxora-motors/cars/car_19.jpg",
+      "/luxora-motors/cars/car_19.jpg",
+      "/luxora-motors/cars/car_19.jpg",
+      "/luxora-motors/cars/car_19.jpg",
+      "/luxora-motors/cars/car_19.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Mercedes-Maybach S 580. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Mercedes-Maybach.",
     "specs": {
@@ -506,13 +506,13 @@ export const cars = [
     "engine": "5.2L V12",
     "hp": 715,
     "seats": 4,
-    "image": "cars/car_20.jpg",
+    "image": "/luxora-motors/cars/car_20.jpg",
     "images": [
-      "cars/car_20.jpg",
-      "cars/car_20.jpg",
-      "cars/car_20.jpg",
-      "cars/car_20.jpg",
-      "cars/car_20.jpg"
+      "/luxora-motors/cars/car_20.jpg",
+      "/luxora-motors/cars/car_20.jpg",
+      "/luxora-motors/cars/car_20.jpg",
+      "/luxora-motors/cars/car_20.jpg",
+      "/luxora-motors/cars/car_20.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Aston Martin DBS Superleggera. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Aston Martin.",
     "specs": {
@@ -532,13 +532,13 @@ export const cars = [
     "engine": "4.0L V8",
     "hp": 620,
     "seats": 4,
-    "image": "cars/car_21.jpg",
+    "image": "/luxora-motors/cars/car_21.jpg",
     "images": [
-      "cars/car_21.jpg",
-      "cars/car_21.jpg",
-      "cars/car_21.jpg",
-      "cars/car_21.jpg",
-      "cars/car_21.jpg"
+      "/luxora-motors/cars/car_21.jpg",
+      "/luxora-motors/cars/car_21.jpg",
+      "/luxora-motors/cars/car_21.jpg",
+      "/luxora-motors/cars/car_21.jpg",
+      "/luxora-motors/cars/car_21.jpg"
     ],
     "description": "Experience the epitome of luxury and performance with the Porsche Panamera Turbo S. This vehicle combines cutting-edge technology with timeless design, offering an unparalleled driving experience. Crafted with precision, every detail inside and out reflects the heritage and excellence of Porsche.",
     "specs": {
